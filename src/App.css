@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+/* general styles */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+  font-family: "PT Sans", sans-serif;
+  background-color: #feb239;
+
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  display: flex;
+  /* justify-content: center; */
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 3px;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+section {
+  padding: 4% 0;
+}
+a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #4f4f4f;
+  font-family: "PT Sans", sans-serif;
+}
+a:hover {
+  color: #4aab00;
+}
+
+/* ---------------------------END OF RESET----------------------------- */
+.App {
+  /* background-image: url("https://i.ibb.co/zZKgb7Z/border2.png"); */
+  /* background-repeat: no-repeat; */
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -75%;
+  line-height: 10rem;
+}
+.flower-border-img {
+  max-width: fit-content;
+}
+.section2 {
+  /* max-width: fit-content; */
+  position: sticky;
+}
+.sunshine {
+  max-width: auto;
+  margin-top: -10rem;
+}
+
+.growth {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.roots {
+  margin-top: 20rem;
+}
